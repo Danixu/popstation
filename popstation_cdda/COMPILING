@@ -1,0 +1,8 @@
+You will need to build iniparser first, see the iniparser directory for more details.
+You will also need zlib in some form.
+
+To build popstation on linux,
+
+gcc -lm -lz -o popstation main.c toc.c libiniparser.a
+
+To build popstation on windows, you can use the provided msvc project files.
